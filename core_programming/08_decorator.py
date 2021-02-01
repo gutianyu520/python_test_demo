@@ -18,15 +18,20 @@ print("---------------------------------")
 """
     装饰器的实际应用案例
 """
+
+
 def decorator_fool(func):
     def inner():
         print("this is decorator method")
         func()
+
     return inner
+
 
 @decorator_fool
 def foo1():
     print("fool1")
+
 
 foo1()
 
@@ -46,19 +51,44 @@ foo1()
       这样再将该参数传给被装饰的函数就行了
     2.被修饰函数可以带有返回值，没有影响
 """
+
+
 def timecunt(func):
-    def ti(a,b):
-        print(a+b)
-        func(a,b)
+    def ti(a, b):
+        print(a + b)
+        func(a, b)
+
     return ti
 
+
 @timecunt
-def ttt(a,b):
+def ttt(a, b):
     print("jjjjjjjjjj")
 
-ttt(1,2)
+
+ttt(1, 2)
+print("---------------------------------")
+
+"""
+    类装饰器
+"""
 
 
+class Test(object):
+    def __init__(self, func):
+        print("---初始化---")
+        print("func name is %s" % func.__name__)
+        self.func = func
+
+    def __call__(self):
+        print("---装饰器中的功能---")
+        self.func()
 
 
+@Test
+def test():
+    print("----test---")
 
+te = Test(lambda x: x + 1)
+
+test()
