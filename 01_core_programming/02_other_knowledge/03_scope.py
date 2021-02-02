@@ -2,7 +2,7 @@
 # @Time : 2021/02/01 17:08
 # @Author : Lim Yoona
 # @Site : 
-# @File : 03-scope.py
+# @File : 03_scope.py
 # @Software: PyCharm
 
 

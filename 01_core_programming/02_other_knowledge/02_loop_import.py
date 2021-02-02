@@ -2,7 +2,7 @@
 # @Time : 2021/02/01 17:00
 # @Author : Lim Yoona
 # @Site : 
-# @File : 02-loop_import.py
+# @File : 02_loop_import.py
 # @Software: PyCharm
 
 """

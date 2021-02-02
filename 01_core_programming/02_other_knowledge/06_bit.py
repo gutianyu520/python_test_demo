@@ -2,7 +2,7 @@
 # @Time : 2021/02/01 17:41
 # @Author : Lim Yoona
 # @Site : 
-# @File : 06-bit.py
+# @File : 06_bit.py
 # @Software: PyCharm
 
 """

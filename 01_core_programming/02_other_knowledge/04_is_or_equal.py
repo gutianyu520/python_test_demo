@@ -2,7 +2,7 @@
 # @Time : 2021/02/01 17:18
 # @Author : Lim Yoona
 # @Site : 
-# @File : 04-is_or_equal.py
+# @File : 04_is_or_equal.py
 # @Software: PyCharm
 
 """
