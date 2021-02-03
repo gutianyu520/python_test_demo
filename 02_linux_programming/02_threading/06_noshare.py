@@ -4,3 +4,13 @@
 # @Site    : 
 # @File    : 06_noshare.py
 # @Software: PyCharm
+
+
+"""
+    多线程-非共享数据
+
+    局部变量非共享
+"""
+
+
+
