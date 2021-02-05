@@ -18,6 +18,7 @@
     
     协程的好处：
         封装IO操作，适合高IO密集型
+    注意：2.X版本 next() ->3.X版本 __next__()
 """
 
 import time
@@ -31,7 +32,7 @@ def A():
 def B(c):
     while True:
         print("----B---")
-        c.next()
+        c.__next__()
         time.sleep(0.5)
 
 if __name__=='__main__':
